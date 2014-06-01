@@ -27,7 +27,7 @@ Pass in a JSON Object to `data-flare` to bind your event descriptors. Flare bind
 
 The `data-flare-event` gets passed into `addEventListener` and `attachEvent`, so ensure the event is valid.
 
-As flare parses JSON from the `data-*` attribute, you can of course use some of the custom value Google Universal Analytics properties such as `{ 'page': '/my-new-page' }` and `{ 'nonInteraction': 1 }`:
+As flare parses JSON from the `data-*` attribute, you can of course use some of the custom Google Universal Analytics properties such as `{ 'page': '/my-new-page' }` and `{ 'nonInteraction': 1 }`:
 
 ```html
 <a href="/promotions" data-flare='{
