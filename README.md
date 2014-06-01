@@ -97,8 +97,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release history
 
-- 1.1.0
-  - Add Array/NodeList length caching
-  - Switch index/value order for Array and NodeLists
 - 1.0.0
   - Initial release
