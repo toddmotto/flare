@@ -1,0 +1,23 @@
+{
+  "name": "flare.js",
+  "title": "flare",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/toddmotto/flare.git"
+  },
+  "homepage": "github.com/toddmotto/flare",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "matchdep": "~0.3.0"
+  }
+}
