@@ -55,7 +55,6 @@ flare.emit({
 Then use within your own logic:
 
 ```html
-<!-- uses `mouseover` -->
 <a href="/promotions" class="promotions">Click me</a>
 <script>
 document
