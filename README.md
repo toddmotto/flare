@@ -72,15 +72,14 @@ document
 ```
 
 ## Installing with Bower
-Use the repository hook:
 
 ```
-bower install https://github.com/toddmotto/flare.git
+bower install flare
 ```
 
 ## Manual installation
 Ensure you're using the files from the `dist` directory (contains compiled production-ready code). Ensure you place the script before the closing `</body>` tag.
-  
+
 ```html
 <body>
   <!-- html above -->
