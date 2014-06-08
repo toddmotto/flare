@@ -1,4 +1,4 @@
-# flare.js [![Build Status](https://travis-ci.org/toddmotto/flare.png)](https://travis-ci.org/toddmotto/flare)
+# flare.js [![Build Status](https://travis-ci.org/toddmotto/flare.svg)](https://travis-ci.org/toddmotto/flare)
 
 flare.js, a &lt;1KB unobtrusive event emitter API for Google Universal Analytics. With flare you can easily bind event JSON to a `data-*` attribute, or use `flare.emit()` to fire flares directly. Flare automatically calls `ga('send')` and constructs other properties (and arguments order) so you don't communicate with `ga()` directly. IE8+.
 
@@ -92,7 +92,7 @@ Ensure you're using the files from the `dist` directory (contains compiled produ
 ```
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using Grunt.
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using Gulp.
 
 ## Release history
 

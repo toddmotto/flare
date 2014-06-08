@@ -1,23 +1,23 @@
 {
   "name": "flare.js",
-  "title": "flare",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/toddmotto/flare.git"
-  },
-  "homepage": "github.com/toddmotto/flare",
   "version": "1.0.0",
+  "description": "Unobtrusive event emitter API for Google Universal Analytics event tracking",
+  "author": "@toddmotto",
+  "license": "MIT",
+  "homepage": "https://github.com/toddmotto/flare",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-connect": "~0.5.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-jasmine": "~0.5.2",
-    "matchdep": "~0.3.0"
+    "gulp": "~3.7.0",
+    "gulp-uglify": "~0.3.0",
+    "gulp-rename": "~1.1.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-plumber": "~0.6.2",
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "^1.6.1",
+    "jshint-stylish": "^0.2.0",
+    "gulp-karma": "0.0.4",
+    "karma": "^0.12.16",
+    "karma-jasmine": "~0.2.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-spec-reporter": "0.0.13"
   }
 }

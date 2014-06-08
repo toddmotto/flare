@@ -1,4 +1,4 @@
-/*! flare v1.0.0 | (c) 2014 @toddmotto | github.com/toddmotto/flare */
+/*! flare.js v1.0.0 | (c) 2014 @toddmotto | https://github.com/toddmotto/flare */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(factory);
@@ -11,7 +11,7 @@
 
   'use strict';
 
-  var exports = {};
+  var flare = {};
 
   var types = {
     category: 'eventCategory',
@@ -32,7 +32,7 @@
     }
   };
 
-  exports.emit = function (trackers) {
+  flare.emit = function (trackers) {
     var track = { hitType: 'event' };
     for (var prop in trackers) {
       if (types[prop]) {
@@ -44,17 +44,17 @@
     } catch (e) {}
   };
 
-  exports.init = function () {
+  flare.init = function () {
     var nodes = document.querySelectorAll('[data-flare]');
     var i = nodes.length;
     var emit = function () {
-      exports.emit(JSON.parse(this.getAttribute('data-flare')));
+      flare.emit(JSON.parse(this.getAttribute('data-flare')));
     };
     while (i--) {
       addEvent(nodes[i], (nodes[i].getAttribute('data-flare-event') || 'click'), emit);
     }
   };
 
-  return exports;
+  return flare;
 
 });
