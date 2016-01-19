@@ -71,6 +71,12 @@ document
 </script>
 ```
 
+## Installing with npm
+
+```
+npm install flare.js
+```
+
 ## Installing with Bower
 
 ```
