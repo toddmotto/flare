@@ -4,6 +4,10 @@ flare.js, a &lt;1KB unobtrusive event emitter API for Google Universal Analytics
 
 > Remember to drop in Google Analytics beforehand! See [docs](https://developers.google.com/analytics/devguides/collection/analyticsjs/events#crossbrowser) for more.
 
+#### Initialisation
+
+Simply call `flare.init()` and go ahead and use data attributes, or the JavaScript API.
+
 #### As data-* attribute
 Pass in a JSON Object to `data-flare` to bind your event descriptors. Flare binds a `click` event unless a custom event is specified using `data-flare-event=""`:
 
